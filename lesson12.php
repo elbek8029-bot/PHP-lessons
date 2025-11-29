@@ -7,17 +7,17 @@ public function sound(){
 }
 class cat extends Hayvon{
     public function sound(){
-        return "Miauv";
+        return " mushuk Miauv didi";
     }
 }
 class Dog extends Hayvon{
        public function sound(){
-        return "Vov";
+        return " it Vov didi";
     }
 }
 class sechchi extends Hayvon {
      public function sound(){
-        return " saidjon Mouuu didi";
+        return " mol mou didi";
     }
 }
 
@@ -27,7 +27,7 @@ echo "<br>";
 $cat=  new cat;
 echo $cat->sound();
 echo "<br>";
-$dog =  new dog;
+$dog =  new Dog;
 echo $dog->sound();
 echo "<br>";
 ?>
